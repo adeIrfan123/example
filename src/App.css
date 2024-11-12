@@ -1,0 +1,35 @@
+body {
+  height: 100000px;
+}
+.bg-image {
+  background-image: url("assets/Image/image.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 680px;
+}
+.card1 {
+  background-image: url("assets/Image/image.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.card2 {
+  background-image: url("assets/Image/image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  animation: infinity-scroll 6s linear infinite;
+  flex-shrink: 0;
+}
+@keyframes infinity-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
